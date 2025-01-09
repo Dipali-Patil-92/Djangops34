@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block 'demo' %}
+
+    <h3>Demo block of cart page</h3>
+
+    <img src="{% static 'images/iphone.jpeg' %}" alt=".." height="200px" width="200px">
+
+    <br>
+    <input type="button" onclick="greet()" value="Click">
+
+    <script src="{% static 'js/main.js' %}"></script>
+
+{% endblock 'demo' %}
